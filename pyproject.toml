@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-algoexpert"
+version = "0.1.0"
+description = "Python project for AlgoExpert's challenges"
+authors = ["Rafael Ribeiro <tecinfo.rafael@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_algoexpert"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
