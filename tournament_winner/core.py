@@ -3,7 +3,11 @@ def tournament_winner(competitions, results):
     Complexity:
 
     Time: O(n)
-    Space: O(1)
+    Space: O(k)
+
+    Where:
+    - n is the number of competitions
+    - k is the number of teams
     """
     champion = ""
     high_score = 0
